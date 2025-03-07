@@ -4,9 +4,9 @@ var roomstuff = {"rooms":{
 
 "main":{"rName":"The Dungeon","backgroundImage":"https://soi-drkdunge.hyperchat.com/DUNGEONbottom.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #c2f1ff;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/DarkDungeontopnew.jpg><br>Welcome to the Dungeon<br></center>","roombottom":""},
 
-"meeting":{"rName":"The Meeting Room","backgroundImage":"https://soi-drkdunge.hyperchat.com/meetingroombackgroundUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #c8b4b0;}</style><center><img class='topImage' src=https://soi-plantati.hyperchat.com/TheHallway.jpg><br>Entering the Hallway<br></center>","roombottom":""},
+"meeting":{"rName":"The Meeting Room","backgroundImage":"https://soi-drkdunge.hyperchat.com/meetingroombackgroundUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #c8b4b0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/meetingroomtopUSE.jpg><br>Welcome to the Meeting Room<br></center>","roombottom":""},
 
-"refreshment":{"rName":"The Refreshments Room","backgroundImage":"https://soi-drkdunge.hyperchat.com/refreshmentroombackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/meetingroomtopUSE.jpg><br>Welcome to the Meeting Room<br></center>","roombottom":""},
+"refreshment":{"rName":"The Refreshments Room","backgroundImage":"https://soi-drkdunge.hyperchat.com/refreshmentroombackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/refreshmentroomtopUSE.jpg><br>Welcome to the Refreshments Room<br></center>","roombottom":""},
 
 "bondage":{"rName":"The Bondage Room","backgroundImage":"https://soi-drkdunge.hyperchat.com/bondagebackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: ##b6b6b6;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/bondageroomtopUSE.jpg><br>Welcome to The Bondage Room<br></center>","roombottom":""},
 
