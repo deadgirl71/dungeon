@@ -1,31 +1,135 @@
-var multiConfig = {"THISROOM":"locationColor":"red","locationBackground":"green","currentView":"","viewList":["main","meeting","refreshment","playroom","bondage","torture","religion","medical","bathroom","littles","puppy","horse","pig","cages"],"defaultView":"main"}
+var multiConfig = {
+  "THISROOM": "cchome@soi",
+  "locationColor": "red",
+  "locationBackground": "green",
+  "currentView": "",
+  "viewList": [
+    "main", "meeting", "refreshment", "playroom", "bondage", "torture",
+    "religion", "medical", "bathroom", "littles", "puppy", "horse", "pig", "cages"
+  ],
+  "defaultView": "main"
+};
 
-var roomstuff = {"rooms":{
+var roomstuff = {
+  "rooms": {
 
-"meeting":{"rName":"La salle de réunion (The Meeting Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/meetingroombackgroundUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #c8b4b0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/meetingroomtopUSE.jpg><br>Welcome to the Meeting Room<br></center>","roombottom":""},
+    "meeting": {
+      "rName": "La salle de réunion (The Meeting Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/meetingroombackgroundUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #c8b4b0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/meetingroomtopUSE.jpg><br>Welcome to the Meeting Room<br></center>",
+      "roombottom": ""
+    },
 
-"refreshment":{"rName":"La salle des rafraîchissements (The Refreshments Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/refreshmentroombackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/refreshmentroomtopUSE.jpg><br>Welcome to the Refreshments Room<br></center>","roombottom":""},
+    "refreshment": {
+      "rName": "La salle des rafraîchissements (The Refreshments Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/refreshmentroombackUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/refreshmentroomtopUSE.jpg><br>Welcome to the Refreshments Room<br></center>",
+      "roombottom": ""
+    },
 
-"playroom":{"rName":"La salle de jeux (The PlayRoom)","backgroundImage":"https://soi-drkdunge.hyperchat.com/playroomback.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/playroomdungeon.jpg><br>Welcome to the Playroom<br></center>","roombottom":""},
+    "playroom": {
+      "rName": "La salle de jeux (The Playroom)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/playroomback.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/playroomdungeon.jpg><br>Welcome to the Playroom<br></center>",
+      "roombottom": ""
+    },
 
-"bondage":{"rName":"La salle de bondage (The Bondage Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/bondagebackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: ##b6b6b6;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/bondageroomtopUSE.jpg><br>Welcome to The Bondage Room<br></center>","roombottom":""},
+    "bondage": {
+      "rName": "La salle de bondage (The Bondage Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/bondagebackUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #b6b6b6;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/bondageroomtopUSE.jpg><br>Welcome to The Bondage Room<br></center>",
+      "roombottom": ""
+    },
 
-"torture":{"rName":"La salle de torture (The Torture Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/tourtureroombackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #a3f0d0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/torturetopUSE.jpg><br>Welcome to The Torture Room<br></center>","roombottom":""},
+    "torture": {
+      "rName": "La salle de torture (The Torture Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/tourtureroombackUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #a3f0d0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/torturetopUSE.jpg><br>Welcome to The Torture Room<br></center>",
+      "roombottom": ""
+    },
 
-"religion":{"rName":"La salle de la religion (The Religion Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/confessionalUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/religioustopUSE.jpg><br>Welcome to The Religious Room<br></center>","roombottom":""},
+    "religion": {
+      "rName": "La salle de la religion (The Religion Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/confessionalUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/religioustopUSE.jpg><br>Welcome to The Religious Room<br></center>",
+      "roombottom": ""
+    },
 
-"medical":{"rName":"La salle médicale (The Medical Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/medicalbackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #c2f1ff;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/medicalplaytopUSE.jpg><br>Welcome to The Medical Room<br></center>","roombottom":""},
+    "medical": {
+      "rName": "La salle médicale (The Medical Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/medicalbackUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #c2f1ff;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/medicalplaytopUSE.jpg><br>Welcome to The Medical Room<br></center>",
+      "roombottom": ""
+    },
 
-"bathroom":{"rName":"La salle de bain (The Bathroom)","backgroundImage":"https://soi-drkdunge.hyperchat.com/bathbackdoorsUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #c8b4b0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/bathroomtopuse.jpg><br>Welcome to The Bathroom<br></center>","roombottom":""},
+    "bathroom": {
+      "rName": "La salle de bain (The Bathroom)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/bathbackdoorsUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #c8b4b0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/bathroomtopuse.jpg><br>Welcome to The Bathroom<br></center>",
+      "roombottom": ""
+    },
 
-"littles":{"rName":"TLa chambre du petit (The little's Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/littlesbackgroundUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/littlesplayroomtopUSE.jpg><br>Welcome to The little's room<br></center>","roombottom":""},
+    "littles": {
+      "rName": "La chambre du petit (The Little's Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/littlesbackgroundUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/littlesplayroomtopUSE.jpg><br>Welcome to The Little's Room<br></center>",
+      "roombottom": ""
+    },
 
-"puppy":{"rName":"La chambre du chiot (The Puppy Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/puppyplayroombackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: ##b6b6b6;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/puppytopUSE.jpg><br>Welcome to The Puppy Room<br></center>","roombottom":""},
+    "puppy": {
+      "rName": "La chambre du chiot (The Puppy Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/puppyplayroombackUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #b6b6b6;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/puppytopUSE.jpg><br>Welcome to The Puppy Room<br></center>",
+      "roombottom": ""
+    },
 
-"horse":{"rName":"La salle des chevaux (The Horse Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/horseplaybackgroundUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #a3f0d0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/horseplaytopUSE.jpg><br>Welcome to The Horse Room<br></center>","roombottom":""},
+    "horse": {
+      "rName": "La salle des chevaux (The Horse Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/horseplaybackgroundUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #a3f0d0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/horseplaytopUSE.jpg><br>Welcome to The Horse Room<br></center>",
+      "roombottom": ""
+    },
 
-"pig":{"rName":"La chambre du cochon (The Pig Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/pigbackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/pigpentopUSE.jpg><br>Welcome to The Pig Pen Room<br></center>","roombottom":""},
+    "pig": {
+      "rName": "La chambre du cochon (The Pig Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/pigbackUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/pigpentopUSE.jpg><br>Welcome to The Pig Pen Room<br></center>",
+      "roombottom": ""
+    },
 
-"cages":{"rName":"La salle des cages (The Cage Room)","backgroundImage":"https://soi-drkdunge.hyperchat.com/cagesbackUSE.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/cagestopUSE.jpg><br>Welcome to The Cage Room<br></center>","roombottom":""},
+    "cages": {
+      "rName": "La salle des cages (The Cage Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/cagesbackUSE.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/cagestopUSE.jpg><br>Welcome to The Cage Room<br></center>",
+      "roombottom": ""
+    }
 
-}}
+  }
+};
+
