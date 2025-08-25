@@ -1,13 +1,13 @@
 var multiConfig = {
-  "THISROOM": "cchome@soi",
+  "THISROOM": "drkdunge",
   "locationColor": "red",
   "locationBackground": "green",
   "currentView": "",
   "viewList": [
-    "main", "meeting", "refreshment", "playroom", "bondage", "torture",
+    "meeting", "refreshment", "playroom", "bondage", "torture",
     "religion", "medical", "bathroom", "littles", "puppy", "horse", "pig", "cages"
   ],
-  "defaultView": "main"
+  "defaultView": "meeting"
 };
 
 var roomstuff = {
