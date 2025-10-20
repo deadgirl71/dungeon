@@ -4,7 +4,7 @@ var multiConfig = {
   "locationBackground": "green",
   "currentView": "",
   "viewList": [
-    "meeting", "refreshment", "playroom", "bondage", "torture",
+    "meeting", "refreshment", "playroom", "torture", "equipment",
     "religion", "medical", "bathroom", "littles", "puppy", "horse", "pig", "cages"
   ],
   "defaultView": "meeting"
@@ -31,8 +31,16 @@ var roomstuff = {
       "roombottom": ""
     },
 
-    "playroom": {
-      "rName": "La salle de jeux (The Playroom)",
+   "playroom": {
+      "rName": "La salle de jeux (The Play Room)",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/playroomback.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/theplayroom.jpg><br>Welcome to the Playroom<br></center>",
+      "roombottom": ""
+    },
+    "torture": {
+      "rName": "La salle de torture (The Torture Room)",
       "backgroundImage": "https://soi-drkdunge.hyperchat.com/playroomback.jpg",
       "chatleft": "",
       "underchat": "",
@@ -40,21 +48,12 @@ var roomstuff = {
       "roombottom": ""
     },
 
-    "bondage": {
-      "rName": "La salle de bondage (The Bondage Room)",
+    "equipment": {
+      "rName": "La salle d’équipement (The Equipment Room)",
       "backgroundImage": "https://soi-drkdunge.hyperchat.com/bondagebackUSE.jpg",
       "chatleft": "",
       "underchat": "",
       "roomtop": "<style>body {color: #b6b6b6;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/bondageroomtopUSE.jpg><br>Welcome to The Bondage Room<br></center>",
-      "roombottom": ""
-    },
-
-    "torture": {
-      "rName": "La salle de torture (The Torture Room)",
-      "backgroundImage": "https://soi-drkdunge.hyperchat.com/tourtureroombackUSE.jpg",
-      "chatleft": "",
-      "underchat": "",
-      "roomtop": "<style>body {color: #a3f0d0;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/torturetopUSE.jpg><br>Welcome to The Torture Room<br></center>",
       "roombottom": ""
     },
 
