@@ -41,10 +41,10 @@ var roomstuff = {
     },
     "torture": {
       "rName": "La salle de torture (The Torture Room)",
-      "backgroundImage": "https://soi-drkdunge.hyperchat.com/playroomback.jpg",
+      "backgroundImage": "https://soi-drkdunge.hyperchat.com/tourtureroombackUSE.jpg",
       "chatleft": "",
       "underchat": "",
-      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/playroomdungeon.jpg><br>Welcome to the Playroom<br></center>",
+      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/torturetopUSE.jpg><br>Welcome to the Playroom<br></center>",
       "roombottom": ""
     },
 
