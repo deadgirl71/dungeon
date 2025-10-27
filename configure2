@@ -36,7 +36,7 @@ var roomstuff = {
       "backgroundImage": "https://soi-drkdunge.hyperchat.com/bondagebackUSE.jpg",
       "chatleft": "",
       "underchat": "",
-      "roomtop": "<style>body {color: #b6b6b6;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/bondageroomtopUSE.jpg><br>Welcome to The Bondage Room<br></center>",
+      "roomtop": "<style>body {color: #b6b6b6;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/equipmentroomtop.jpg><br>Welcome to The Bondage Room<br></center>",
       "roombottom": ""
     },
 
@@ -45,7 +45,7 @@ var roomstuff = {
       "backgroundImage": "https://soi-drkdunge.hyperchat.com/dungeonplayroomback.jpg",
       "chatleft": "",
       "underchat": "",
-      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/theplayroom.jpg><br>Welcome to the Playroom<br></center>",
+      "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src=https://soi-drkdunge.hyperchat.com/dungeonplayroom.jpg><br>Welcome to the Playroom<br></center>",
       "roombottom": ""
     },
     "torture": {
